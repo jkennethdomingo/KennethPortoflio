@@ -352,7 +352,6 @@ scroll-header{
     border-color: transparent;
   }
 }
-
 /*==================== BUTTONS ====================*/
 .button{
   display: inline-block;
@@ -1300,3 +1299,4 @@ scroll-header{
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
