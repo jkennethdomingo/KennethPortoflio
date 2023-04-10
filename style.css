@@ -332,6 +332,27 @@ scroll-header{
 .home__scroll-arrow{
   font-size: 1.25rem;
 }
+
+.typewriter__effect{
+  width: 100%;
+  animation: typing 3s steps(37), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 /*==================== BUTTONS ====================*/
 .button{
   display: inline-block;
